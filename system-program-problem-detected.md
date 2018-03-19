@@ -3,6 +3,8 @@ loads up, I get a "System Program Detected" pop-up at the top left
 of the Desktop Environment. Additionally, they have become more frequent
 during regular use, so I decided to get rid of the pop-up.
 
+![](images/ubuntu-system-problem.png)
+
 The solution to this is a simple edit of a priveliged file
 `/etc/default/apport`. This file should contain the line `enabled=1`
 and all you have to do is change that to `enabled=0` to get rid
